@@ -16,6 +16,7 @@
   justify-content: center;
   /* The position is set to relative, which is needed for absolute positioning of child elements. */
   position: relative;
+  
 }
 
 
