@@ -20,13 +20,12 @@ function Navigation() {
   // This component returns a navigation bar with three links
   return (
     <nav className="navbar">
-      <a href="#">Home</a>
+      <a href="#">Home</a> 
       <a href="#">Matching</a>
       <a href="#">Tic Tac Toe</a>
     </nav>
   );
-}
-
+} 
 // FloatingEquations Component
 function FloatingEquations() {
   // This component generates and displays floating equations on the screen
