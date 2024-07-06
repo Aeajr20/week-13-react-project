@@ -7,7 +7,8 @@
       "origin": "Earth (C-137)",
       "currentLocation": "Earth (Replacement Dimension)",
       "favoriteCatchphrase": "Wubba lubba dub dub!",
-      "id": 1
+      "id": 1,
+      "image": "https://cdn.vox-cdn.com/thumbor/1kKyzwmocR6pu9ijSIl_l1XP0PY=/0x0:1280x720/1200x675/filters:focal(470x259:674x463)/cdn.vox-cdn.com/uploads/chorus_image/image/58089103/r_m_sauce.0.jpg"
     },
     {
       "fullName": "Morty Smith",
@@ -17,7 +18,8 @@
       "origin": "Earth (C-137)",
       "currentLocation": "Earth (Replacement Dimension)",
       "favoriteCatchphrase": "Aw geez, Rick.",
-      "id": 2
+      "id": 2,
+      "image": "https://qph.cf2.quoracdn.net/main-qimg-3898e4a5144faba7370614208624c0f8.webp"
     },
     {
       "fullName": "Beth Smith",
@@ -27,7 +29,8 @@
       "origin": "Earth (C-137)",
       "currentLocation": "Earth (Replacement Dimension)",
       "favoriteCatchphrase": "I'm not my father.",
-      "id": 3
+      "id": 3,
+      "image": "https://www.denofgeek.com/wp-content/uploads/2021/08/Rick-and-Morty-Beth.jpg?fit=1200%2C676"
     },
     {
       "fullName": "Jerry Smith",
@@ -37,7 +40,8 @@
       "origin": "Earth (C-137)",
       "currentLocation": "Earth (Replacement Dimension)",
       "favoriteCatchphrase": "Life is effort and I'll stop when I die!",
-      "id": 4
+      "id": 4,
+      "image": "https://www.slashfilm.com/img/gallery/jerrys-pathetic-nature-is-chris-parnells-favorite-part-of-rick-and-morty/intro-1662149019.webp"
     },
     {
       "fullName": "Summer Smith",
@@ -47,7 +51,8 @@
       "origin": "Earth (C-137)",
       "currentLocation": "Earth (Replacement Dimension)",
       "favoriteCatchphrase": "That's so sad!",
-      "id": 5
+      "id": 5,
+      "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2023/11/rick-and-morty-season-7-rick-summer.jpg"
     }
   ]
   

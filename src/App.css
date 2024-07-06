@@ -1,5 +1,12 @@
 .App {
-  text-align: center;
+  background-image: url('https://wallpapers.com/images/featured/rick-and-morty-8rc57d4ds44gqzau.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
 
 .App-logo {
@@ -7,32 +14,81 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
 
 .App-header {
-  background-color: #1a6917;
-  min-height: 100vh;
+  background-color: #175a1770;
+  min-height: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(225, 245, 44);
+  font-size: calc(5px + 2vmin);
+  color: rgb(228, 253, 0);
+  text-align: center;
+  font-weight: bolder;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+body {
+  background-color: #282a36;
+  color: #f0f01e;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #235a15;
+  padding: 10px;
+  width: 100%;
+}
+
+.navbar a {
+  color: #f8f81e;
+  text-decoration: none;
+}
+
+.login-form {
+  box-shadow: #aaaa8f;
+  border: 1px solid #ffff00;
+  background-color: #155a0ca4;
+  padding: 20px;
+  width: 150px;
+  margin: 30px auto;
+  color: #ffff00;
+}
+
+.login-form input {
+  display: block;
+  width: 80%;
+  border-color: #61dafb;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #115c17;
+  border: none;
+  color: #ffff00;
+}
+
+.character-display img {
+  /* The width of the images is set to 200 pixels. */
+  width: 500px;
+  /* The height of the images is set to 200 pixels. */
+  height: 500px;
+  /* The images are resized to fill their dimensions while preserving their aspect ratio. */
+  object-fit: cover;
+  /* Center the image horizontally */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.character-selector{
+background-color: #17771b;
+  color: #115c17;
 }
