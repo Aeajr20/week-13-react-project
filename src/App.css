@@ -1,85 +1,127 @@
-.App {
-  background-image: url('https://wallpapers.com/images/featured/rick-and-morty-8rc57d4ds44gqzau.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App {
+  /* The background image is set to a Rick and Morty image. */
+  background-image: url('https://wallpapers.com/images/featured/rick-and-morty-8rc57d4ds44gqzau.jpg');
+  /* The background image does not repeat. */
+  background-repeat: no-repeat;
+  /* The background image covers the entire container. */
+  background-size: cover;
+  /* The container is displayed as a flex container. */
+  display: flex;
+  /* The flex items are stacked in a column. */
+  flex-direction: column;
+  /* The items are aligned in the center along the cross axis. */
+  align-items: center;
+  /* The items are centered along the main axis. */
+  justify-content: center;
+  /* The position is set to relative, which is needed for absolute positioning of child elements. */
+  position: relative;
 }
 
 
 
 .App-header {
-  background-color: #175a1770;
+  /* The background color of the header is set to a dark green color with 77% opacity. */
+  background-color: #175a17c5;
+  /* The minimum height of the header is set to 100 pixels. */
   min-height: 100px;
+  /* The header is displayed as a flex container. */
   display: flex;
+  /* The flex items are stacked in a column. */
   flex-direction: column;
+  /* The items are aligned in the center along the cross axis. */
   align-items: center;
+  /* The items are centered along the main axis. */
   justify-content: center;
+  /* The font size is set to a responsive size that grows with the viewport. */
   font-size: calc(5px + 2vmin);
+  /* The text color is set to a bright yellow color. */
   color: rgb(228, 253, 0);
+  /* The text is centered. */
   text-align: center;
+  /* The font weight is set to bolder. */
   font-weight: bolder;
 }
 
+
 .App-link {
+  /* The color of the links is set to a bright blue color. */
   color: #61dafb;
 }
 
 
-
 body {
+  /* The background color of the body is set to a dark gray color. */
   background-color: #282a36;
-  color: #f0f01e;
+  /* The text color is set to a bright yellow color. */
+  color:  rgb(228, 253, 0);
+  /* The font family is set to Courier New, falling back to Courier and monospace. */
   font-family: 'Courier New', Courier, monospace;
 }
 
+
 .navbar {
   display: flex;
+  /* The navigation links are spaced evenly along the main axis. */
   justify-content: space-around;
-  background-color: #235a15;
+  /* The background color of the navigation bar is set to a dark green color with 77% opacity. */
+  background-color: #175a17c5;
+  /* The navigation bar is padded on all sides. */
   padding: 10px;
+  /* The navigation bar spans the full width of its container. */
   width: 100%;
 }
 
+
 .navbar a {
-  color: #f8f81e;
-  text-decoration: none;
+  /* The color of the links is set to a bright yellow color. */
+  color: rgb(228, 253, 0);
+  /* The links have no underline. */
+  text-decoration:wavy;
 }
 
+
 .login-form {
+  /* The login form has a box shadow with a color of a light gray. */
   box-shadow: #aaaa8f;
-  border: 1px solid #ffff00;
+  /* The login form has a border with a color of yellow. */
+  border: 1px solid  rgb(228, 253, 0);
+  /* The background color of the login form is set to a dark blue color with 64% opacity. */
   background-color: #155a0ca4;
+  /* The login form is padded on all sides. */
   padding: 20px;
+  /* The width of the login form is set to 150 pixels. */
   width: 150px;
+  /* The login form is centered with automatic margins on the sides and 30 pixels of margin on the top and bottom. */
   margin: 30px auto;
-  color: #ffff00;
+  /* The text color is set to a yellow color. */
+  color:  rgb(228, 253, 0);
 }
 
 .login-form input {
+  /* The input fields are displayed as block elements, meaning they take up the full width of their container. */
   display: block;
+  /* The width of the input fields is set to 80% of their container. */
   width: 80%;
-  border-color: #61dafb;
+  /* The border color of the input fields is set to a bright blue color. */
+  border-color: #3db825;
+  /* The input fields are padded on all sides. */
   padding: 15px;
+  /* The input fields have a margin on the bottom. */
   margin-bottom: 10px;
+  /* The background color of the input fields is set to a dark green color. */
   background-color: #115c17;
+  /* The input fields have no border. */
   border: none;
-  color: #ffff00;
+  /* The text color is set to a yellow color. */
+  color: rgb(228, 253, 0);
 }
 
 .character-display img {
-  /* The width of the images is set to 200 pixels. */
-  width: 500px;
-  /* The height of the images is set to 200 pixels. */
-  height: 500px;
+  /* The width of the images is set to 800 pixels. */
+  width: 800px;
+  /* The height of the images is set to 400 pixels. */
+  height: 400px;
   /* The images are resized to fill their dimensions while preserving their aspect ratio. */
   object-fit: cover;
   /* Center the image horizontally */
@@ -89,6 +131,28 @@ body {
 }
 
 .character-selector{
-background-color: #17771b;
+  /* The background color of the character selector is set to a dark green color. */
+  background-color: #17771b;
+  /* The text color is set to a dark green color. */
   color: #115c17;
+}
+
+
+button{
+  /* The background color of the buttons is set to a bright yellow color. */
+  background-color:  rgb(228, 253, 0);
+  /* The text color is set to a dark green color. */
+  color: #1c8519;
+  font-size: medium;
+}
+
+
+input{
+  /* The background color of the input fields is set to a dark green color. */
+  background-color: #115c17;
+  /* The text color is set to a bright yellow color. */
+  color: rgb(228, 253, 0);
+  
+  /* Controls the font size*/
+  font-size: larger;
 }

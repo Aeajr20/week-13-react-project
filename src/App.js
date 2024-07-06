@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
-import './App.css';
-
-// Import the character data
-import characters from './characters.json';
+// Importing necessary modules and data
+import React, { useState } from 'react'; // Importing React and the useState hook from the 'react' module
+import './App.css'; // Importing the CSS styles for the App component
+import characters from './characters.json'; // Importing character data from a JSON file
 
 // LoginForm Component
 function LoginForm() {
+  // This component returns a simple login form with a username and password field
   return (
     <div className="login-form">
       <h3>Log In</h3>
@@ -17,6 +17,7 @@ function LoginForm() {
 
 // Navigation Component
 function Navigation() {
+  // This component returns a navigation bar with three links
   return (
     <nav className="navbar">
       <a href="#">Home</a>
@@ -28,6 +29,8 @@ function Navigation() {
 
 // FloatingEquations Component
 function FloatingEquations() {
+  // This component generates and displays floating equations on the screen
+
   // Array of equations
   const equations = ['E = mc^2', 'a^2 + b^2 = c^2', 'F = ma', 's = ut + 1/2at^2'];
 
@@ -50,6 +53,7 @@ function FloatingEquations() {
     position: getRandomPosition(),
   }));
 
+  // Return a div containing all the floating equations
   return (
     <div>
       {floatingEquations.map((eq, index) => (
@@ -71,9 +75,10 @@ function FloatingEquations() {
   );
 }
 
-
-
+// App Component
 function App() {
+  // This is the main component of the application
+
   // Use state to keep track of the current character and search term
   const [currentCharacter, setCurrentCharacter] = useState(characters[0]);
   const [searchTerm, setSearchTerm] = useState('');
@@ -88,6 +93,7 @@ function App() {
     character.fullName.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
+  // Return the JSX for the App component
   return (
     <div className="App">
       <Navigation />
@@ -123,4 +129,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; // Exporting the App component as the default export
