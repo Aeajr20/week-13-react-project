@@ -23,7 +23,7 @@
 
 .App-header {
   /* The background color of the header is set to a dark green color with 77% opacity. */
-  background-color: #175a17c5;
+  background-color: #1f661fa9;
   /* The minimum height of the header is set to 100 pixels. */
   min-height: 100px;
   /* The header is displayed as a flex container. */
@@ -66,7 +66,7 @@ body {
   /* The navigation links are spaced evenly along the main axis. */
   justify-content: space-around;
   /* The background color of the navigation bar is set to a dark green color with 77% opacity. */
-  background-color: #175a17c5;
+  background-color:#1f661fa9;
   /* The navigation bar is padded on all sides. */
   padding: 10px;
   /* The navigation bar spans the full width of its container. */
@@ -88,7 +88,7 @@ body {
   /* The login form has a border with a color of yellow. */
   border: 1px solid  rgb(228, 253, 0);
   /* The background color of the login form is set to a dark blue color with 64% opacity. */
-  background-color: #155a0ca4;
+  background-color: #1f661fa9;
   /* The login form is padded on all sides. */
   padding: 20px;
   /* The width of the login form is set to 150 pixels. */
@@ -145,6 +145,7 @@ button{
   /* The text color is set to a dark green color. */
   color: #1c8519;
   font-size: medium;
+  font-weight: bolder;
 }
 
 
