@@ -25,7 +25,8 @@ function Navigation() {
       <a href="#">Tic Tac Toe</a>
     </nav>
   );
-} 
+}
+
 // FloatingEquations Component
 function FloatingEquations() {
   // This component generates and displays floating equations on the screen
@@ -74,6 +75,14 @@ function FloatingEquations() {
   );
 }
 
+
+
+
+
+
+
+
+
 // App Component
 function App() {
   // This is the main component of the application
@@ -104,6 +113,9 @@ function App() {
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
+
+        {"Lets get riggity riggity wrecked"}
+        
         <div className="character-selector">
           {filteredCharacters.map((character, index) => (
             <button key={index} onClick={() => handleCharacterSelect(character)}>
@@ -111,7 +123,9 @@ function App() {
             </button>
           ))}
         </div>
-        {5+5}
+
+{"LETS GET SCHWIFTY"}
+
         <div className="character-display">
           <h2>{currentCharacter.fullName}</h2>
           <img src={currentCharacter.image} alt={currentCharacter.fullName} />
@@ -123,7 +137,8 @@ function App() {
           <p>Favorite Catchphrase: {currentCharacter.favoriteCatchphrase}</p>
         </div>
       </header>
-      <LoginForm />
+      <FloatingEquations /> {/* Rendering the FloatingEquations component */}
+      <LoginForm /> {/* Rendering the LoginForm component */}
     </div>
   );
 }
